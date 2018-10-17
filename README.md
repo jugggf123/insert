@@ -2,6 +2,7 @@
 
 ```
 def insert_sort2(target_list):
+    "插入排序（倒序）"
     assert isinstance(target_list, list)
     if not target_list:
         return target_list
