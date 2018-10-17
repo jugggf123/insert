@@ -1,6 +1,7 @@
 # insert
 
 
+<code>
 def insert_sort2(target_list):
     assert isinstance(target_list, list)
     if not target_list:
@@ -15,3 +16,4 @@ def insert_sort2(target_list):
         target_list[j + 1] = key
 
     return target_list
+</code>
