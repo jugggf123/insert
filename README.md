@@ -2,8 +2,8 @@
 
 ```
 def insert_sort2(target_list):
-    "插入排序（倒序）"
-    assert isinstance(target_list, list)
++    "插入排序（倒序）"
+-    assert isinstance(target_list, list)
     if not target_list:
         return target_list
     for i in range(1, len(target_list)):
@@ -18,3 +18,18 @@ def insert_sort2(target_list):
     return target_list
 
 ```
+- [x] @mentions, #refs, [links](), **formatting**, and <del>tags</del> supported
+- [x] list syntax required (any unordered or ordered list supported)
+- [x] this is a complete item
+- [ ] this is an incomplete item
+
+
+
+
+#1
+mojombo#1
+mojombo/github-flavored-markdown#1
+
+
+
+~~this~~
